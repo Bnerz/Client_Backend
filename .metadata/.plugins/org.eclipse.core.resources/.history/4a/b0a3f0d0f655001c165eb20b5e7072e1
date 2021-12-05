@@ -1,0 +1,31 @@
+package com.desafio1.client.categories;
+
+import java.time.Instant;
+
+public class Client {
+	
+	private Long id;
+	private String name;
+	private String cpf;
+	private Double income;
+	private Instant birthDate;
+	private Integer childrem;
+	
+	
+	public Client() {
+		
+	}
+
+
+	public Client(Long id, String name, String cpf, Double income, Instant birthDate, Integer childrem) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.cpf = cpf;
+		this.income = income;
+		this.birthDate = birthDate;
+		this.childrem = childrem;
+	}
+}
+
+	

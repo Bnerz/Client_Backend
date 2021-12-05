@@ -1,0 +1,8 @@
+package com.desafio1.client.resources;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ClientResource {
+
+}
