@@ -1,0 +1,19 @@
+package com.desafio1.client.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.desafio1.client.entities.Client;
+
+@Service
+public class ClientService {
+	
+	private ClientRepository repository;
+	
+	public List<Client> findAll(){
+		
+		
+	}
+
+}
